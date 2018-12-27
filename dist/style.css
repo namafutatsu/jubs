@@ -1,6 +1,7 @@
 body {
   background-image: url("assets/background.jpg");
-  background-repeat: repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* Dead Simple Grid by Vladimir Agafonkin */
