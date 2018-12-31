@@ -4,6 +4,7 @@ body {
   background-attachment: fixed;
   color: #333;
   padding-top: 1rem;
+  cursor: url(heart-cursor.png), auto;
 }
 
 /* Dead Simple Grid by Vladimir Agafonkin */
