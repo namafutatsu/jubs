@@ -2,6 +2,8 @@ body {
   background-image: url("assets/background.jpg?v=1");
   background-size: cover;
   background-attachment: fixed;
+  color: #333;
+  padding-top: 1rem;
 }
 
 /* Dead Simple Grid by Vladimir Agafonkin */
@@ -28,10 +30,13 @@ body {
   .col.a-quarter {
     width: 25%;
   }
+  .col.a-half {
+    width: 50%;
+  }
 }
 
 @media (max-width: 768px) {
-  .col.a-third, .col.a-quarter {
+  .col.a-third, .col.a-quarter, .col.a-half {
     width: 100%;
     margin-bottom: 2rem;
   }
