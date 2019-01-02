@@ -5,6 +5,7 @@ body {
   color: #333;
   padding-top: 1rem;
   cursor: url(heart-cursor.png), auto;
+  font-family: "Lato", "Times New Roman";
 }
 
 /* Dead Simple Grid by Vladimir Agafonkin */
@@ -71,8 +72,8 @@ body {
   display: inline;
 }
 
-img {
-  display: block;
+.justify {
+  text-align: justify;
 }
 
 .block {
