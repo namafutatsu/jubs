@@ -8,6 +8,19 @@ body {
   font-family: "Lato", "Times New Roman";
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
+hr {
+  margin-top: 2rem;
+}
+
+.height10 {
+  height: 7rem;
+}
+
 /* Dead Simple Grid by Vladimir Agafonkin */
 .row .row { margin:  0 -1.5em; }
 .col      { padding: 0  1.5em; }
